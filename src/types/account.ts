@@ -3,9 +3,13 @@ export enum AccountType {
   LOCAL = 'Локальная'
 }
 
+export interface Label {
+  text: string
+}
+
 export interface Account {
   id: string
-  label?: string
+  label?: Label[]
   type: AccountType
   login: string
   password?: string | null

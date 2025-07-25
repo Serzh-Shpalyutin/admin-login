@@ -11,6 +11,3 @@ import AccountList from '@/components/AccountList.vue'
     </div>
   </div>
 </template>
-
-<style scoped>
-</style>
